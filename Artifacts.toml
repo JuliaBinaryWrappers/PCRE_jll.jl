@@ -1,113 +1,113 @@
 [[PCRE]]
+arch = "i686"
+git-tree-sha1 = "2591fa402180921d1161fd0ecf92e2b460023d01"
+libc = "musl"
+os = "linux"
+
+    [[PCRE.download]]
+    sha256 = "89e57f8b49795984207578773e9d1d0616d2810cc34a79a64c91ca7f7bed7451"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.i686-linux-musl.tar.gz"
+[[PCRE]]
+arch = "aarch64"
+git-tree-sha1 = "d2471eae47370246e0bfff70dfc4752d8c963f44"
+libc = "musl"
+os = "linux"
+
+    [[PCRE.download]]
+    sha256 = "9943cad679a47b999bdbae4b9a5d5f4edce7b0f2a45a82c00d14e745c2224a31"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.aarch64-linux-musl.tar.gz"
+[[PCRE]]
+arch = "i686"
+git-tree-sha1 = "15d696c82fcb0e4acfe84663fdfe84ca3a518e35"
+os = "windows"
+
+    [[PCRE.download]]
+    sha256 = "384a1786a41a0569e8dd15cecf9d0b81648784dd742a41fe964c9af8e8fa6ffd"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.i686-w64-mingw32.tar.gz"
+[[PCRE]]
 arch = "x86_64"
-git-tree-sha1 = "cb26e194b7d758fa1434e32d8b1a1fb4b58ba957"
+git-tree-sha1 = "31ad4e5c101b6193210373cd51f535e1b12c4e9b"
+os = "windows"
+
+    [[PCRE.download]]
+    sha256 = "a0a0864272a79a903290965871055d2bd50770ee2a116a7d82cacd01506592c7"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.x86_64-w64-mingw32.tar.gz"
+[[PCRE]]
+arch = "armv7l"
+git-tree-sha1 = "11bdc2cbfba8c42c676f9d53f260c0cc1fa21b36"
+libc = "glibc"
+os = "linux"
+
+    [[PCRE.download]]
+    sha256 = "bdfd7db0aa861f3e590b78150ba17250ed1db9d2e4778301aecaa2048d9e54a1"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.armv7l-linux-gnueabihf.tar.gz"
+[[PCRE]]
+arch = "armv7l"
+git-tree-sha1 = "5189678be94be5939fe397b34106fd2043a4401a"
+libc = "musl"
+os = "linux"
+
+    [[PCRE.download]]
+    sha256 = "6259655d758df9b76cb3039090783e07207d6cb45aa420407b9952753a59d4c2"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.armv7l-linux-musleabihf.tar.gz"
+[[PCRE]]
+arch = "i686"
+git-tree-sha1 = "28c486f2176375161d919eaca4949a35a76200f1"
+libc = "glibc"
+os = "linux"
+
+    [[PCRE.download]]
+    sha256 = "0d52bb070f6ea4f859216a74107182469a6e7f706acfce6b21312082d224d009"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.i686-linux-gnu.tar.gz"
+[[PCRE]]
+arch = "x86_64"
+git-tree-sha1 = "dc818c949c65acf73e28dc5f9802df8b74e51062"
+libc = "glibc"
+os = "linux"
+
+    [[PCRE.download]]
+    sha256 = "4bbaf14250f67171230acf577fd1b176689ca7843f46ab603d1cf0aa5abe4ff0"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.x86_64-linux-gnu.tar.gz"
+[[PCRE]]
+arch = "powerpc64le"
+git-tree-sha1 = "b22495225ee01b666608ca0fb9436a15c4ddcf17"
+libc = "glibc"
+os = "linux"
+
+    [[PCRE.download]]
+    sha256 = "0eb93ef0f3a5c8994c0436e719d260d5a0887266593b7f44a6c57037c23d80af"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.powerpc64le-linux-gnu.tar.gz"
+[[PCRE]]
+arch = "x86_64"
+git-tree-sha1 = "2477277021e4d3afe8a0c6fec1b8ed7d5a16f08c"
 os = "macos"
 
     [[PCRE.download]]
-    sha256 = "d53161ecffb09f809ae23a94ce1412a17606267f5f412ec32bbc52a1dd7640e0"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "8f3247f0fe06b2acdfcb2367bd9263685add00b435ec5361bb79a8a5368db19f"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.x86_64-apple-darwin14.tar.gz"
 [[PCRE]]
-arch = "i686"
-git-tree-sha1 = "07b6d66c4d440972de2af2b5c92a0359ab2aeb17"
+arch = "aarch64"
+git-tree-sha1 = "6f6f77cc8b9011c1b76bb43b23516042631dd5d7"
 libc = "glibc"
 os = "linux"
 
     [[PCRE.download]]
-    sha256 = "931b2aa322d88eaa64fde47b4c68e31a0b00e3ad210f416a6db9159cb25b2c6c"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.i686-linux-gnu.tar.gz"
+    sha256 = "f24abf30d919f1271f3bc2bf93e735bc91cbd48b4cd866ad36deca797d418e96"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.aarch64-linux-gnu.tar.gz"
 [[PCRE]]
 arch = "x86_64"
-git-tree-sha1 = "3926c7c0286be3fc1763eb1bbfc2d5380ff0e27b"
+git-tree-sha1 = "b28f2fa599a56683c5f41e9b93f535cdfd3d86ea"
 os = "freebsd"
 
     [[PCRE.download]]
-    sha256 = "6ca3004e0e15d603c1f22870d9c6308837a6913c79982a824527a31f7981852b"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.x86_64-unknown-freebsd11.1.tar.gz"
-[[PCRE]]
-arch = "powerpc64le"
-git-tree-sha1 = "31cc5889b213881c1554738d880c3736777fab47"
-libc = "glibc"
-os = "linux"
-
-    [[PCRE.download]]
-    sha256 = "3a1515905189f7ecac446a0b97e540e5a895fb545c0ea4c75b44385862ce3a4c"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "8ba5951ca634f82575d44621215209d03a1cd94a022df61bb4a8a289684ea3d1"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.x86_64-unknown-freebsd11.1.tar.gz"
 [[PCRE]]
 arch = "x86_64"
-git-tree-sha1 = "b2b4f83da98c15cfb34542129a01a0e4920fab93"
+git-tree-sha1 = "8a23871c6ab8abd4f61aea46227d804dff3c2fb9"
 libc = "musl"
 os = "linux"
 
     [[PCRE.download]]
-    sha256 = "2fcfec0a2e00a37585f005c158472e0ed4fd600e0a0e6493430df981fab42ecb"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.x86_64-linux-musl.tar.gz"
-[[PCRE]]
-arch = "x86_64"
-git-tree-sha1 = "1cf91eb6b68286e630840137ad196f61c4de63f9"
-libc = "glibc"
-os = "linux"
-
-    [[PCRE.download]]
-    sha256 = "9d5680e6c49ccf7ad906033fae228df8e2e4cbe7fca9cf5cec47f97f21def6f4"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.x86_64-linux-gnu.tar.gz"
-[[PCRE]]
-arch = "x86_64"
-git-tree-sha1 = "fe89975fcd115e59feb45c086c5c42d8043d349c"
-os = "windows"
-
-    [[PCRE.download]]
-    sha256 = "80870bd2056e072f1911a77c83e1b31a32702c662832a61ccf58c30df1b36af4"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.x86_64-w64-mingw32.tar.gz"
-[[PCRE]]
-arch = "aarch64"
-git-tree-sha1 = "c3cef33672c2ea443baa7a26333362f23aca5c48"
-libc = "musl"
-os = "linux"
-
-    [[PCRE.download]]
-    sha256 = "094fa1b547bb10857f4699034308fe2846ce1ab3c231dc2b5a07227846fd33d5"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.aarch64-linux-musl.tar.gz"
-[[PCRE]]
-arch = "armv7l"
-git-tree-sha1 = "d9734e5e4df203398d2790471b677de65ba6265d"
-libc = "glibc"
-os = "linux"
-
-    [[PCRE.download]]
-    sha256 = "de39be98270ac11283dc2255251c364b6b19213e5b32f852e19ba7825befc62d"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.arm-linux-gnueabihf.tar.gz"
-[[PCRE]]
-arch = "i686"
-git-tree-sha1 = "3d62fe84e099f16367d6929a5917a644b68e4409"
-libc = "musl"
-os = "linux"
-
-    [[PCRE.download]]
-    sha256 = "693a39aa7cbecbdd606683922b8a2d430c525213b2b4f692d113f000762db875"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.i686-linux-musl.tar.gz"
-[[PCRE]]
-arch = "armv7l"
-git-tree-sha1 = "4c2a6abb03b05b02ce843ecede103e0875877887"
-libc = "musl"
-os = "linux"
-
-    [[PCRE.download]]
-    sha256 = "85c9aaf757d3db89477afffbf0efb523f43215327acefe65fa31ef9d15bd07c3"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.arm-linux-musleabihf.tar.gz"
-[[PCRE]]
-arch = "aarch64"
-git-tree-sha1 = "c3c03da2daee97f587adf5fb9bd26467b48c67f9"
-libc = "glibc"
-os = "linux"
-
-    [[PCRE.download]]
-    sha256 = "ac4c89ee9d5f0c1502783c9b6716feb9d41fc269e693c7c029f09d7328c88d17"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.aarch64-linux-gnu.tar.gz"
-[[PCRE]]
-arch = "i686"
-git-tree-sha1 = "18ed29424ba629445299f63e61d1035e359257a4"
-os = "windows"
-
-    [[PCRE.download]]
-    sha256 = "07f1507df185095d8f2481a790283211daf5dd31182d380154af0800599fd0a9"
-    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+1/PCRE.v8.42.0.i686-w64-mingw32.tar.gz"
+    sha256 = "7ff9092c520544e9aec3b1ee27c4acd9e0040b93dc6d9f8dca806b49c2359868"
+    url = "https://github.com/JuliaBinaryWrappers/PCRE_jll.jl/releases/download/PCRE-v8.42.0+2/PCRE.v8.42.0.x86_64-linux-musl.tar.gz"

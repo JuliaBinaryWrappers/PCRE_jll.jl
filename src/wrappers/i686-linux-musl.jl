@@ -24,11 +24,13 @@ const libpcre = "libpcre.so.1"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"PCRE")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    global libpcre_path = abspath(joinpath(artifact"PCRE", libpcre_splitpath...))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    global libpcre_path = normpath(joinpath(artifact_dir, libpcre_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
